@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boekingformulier</title>
+</head>
+<header>
+    <h1>
+        Boekingformulier
+    </h1>
+</header>
+<body>
+    <main>
+        <h2>Naam</h2>
+    <form action="">
+        <div>
+    <label for="voornaam">Voornam</label>
+    <input type="text" placeholder="voornaam">
+</div>
+<div>
+    <label for="achternaam">Achternaam</label>
+    <input type="text" placeholder="achternaam" pattern="" title="Mag alleen letters gebruiken">
+</div>
+<div>
+    <label for="geslacht">Man</label>
+    <input type="radio" name="geslacht" checked>
+    <label for="geslacht">Vrouw</label>
+    <input type="radio" name="geslacht">
+</div>
+</form>
+<form action="">
+    <div>
+    <h2>Adres</h2>
+    <label for="adres">Straat en huisnummer</label>
+    <input type="text" placeholder="Straat en huisnummer">
+    </div>
+    <div>
+    <label for="adres">Postcode</label>
+    <input type="text" placeholder="3123AB">
+    </div>
+    <div>
+    <label for="adres">Stad</label>
+    <input type="text">
+    </div>
+    <div>
+    <label for="adres">Land</label>
+    <input type="text">
+    </div>
+</form>
+<form action="">
+    <div>
+    <h2>
+        BSN
+    </h2>
+    <label for="BSN">BSN</label>
+    <input type="text" maxlength="9">
+   </div>
+</form>
+<form action="">
+    <div>
+    <h2>
+        Vakantielanden
+    </h2>
+    <label for="vakantie landen">Kiez vakantielanden</label>
+    <select name="vakantielanden" id="vakantielanden">
+        <option value="Griekland">Griekland</option>
+        <option value="Italie">Italie</option>
+        <option value="Roemenie">Roemenie</option>
+        <option value="Spanje">Spanje</option>
+    </select>
+    </div>
+    <div>
+    <label for="Vertrek datum">Vertrek datum</label>
+   <input type="date" name="vertrek datum" id="datemin" min="2023-09-14">
+    </div>
+    <div>
+    <label for="Terugkomst">Terug komst</label>
+    <input type="date">
+    </div>
+    <div>
+    <label for="aantal reisgenoten">Aantal reisgenoten</label>
+    <input type="number" min="1" max="4">
+    </div>
+</form>
+<br>
+<form action="">
+    <button type="button">Boek nu</button>
+</form>
+<br>
+<form action="">
+    <label for="E-mail">E-mail adres invullen</label>
+    <input type="email" placeholder="hjgsjdfg@gmail.com">
+    <br>
+    <label for="Password">Password invullen</label>
+    <input type="password" name="password" id="password">
+</form>
+    
+    
+</body>
+</html>
