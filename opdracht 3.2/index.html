@@ -14,17 +14,17 @@
    <form action="">
         <h2>Naam</h2>
         <div>
-    <label for="voornaam">Voornam</label>
+    <label for="fname">Voornam</label>
     <input type="text" placeholder="voornaam">
 </div>
 <div>
-    <label for="achternaam">Achternaam</label>
-    <input type="text" placeholder="achternaam" pattern="" title="Mag alleen letters gebruiken">
+    <label for="lname">Achternaam</label>
+    <input type="text"  pattern="[^0-9]*" title="Only latters">
 </div>
 <div>
-    <label for="geslacht">Man</label>
+    <label for="gender">Man</label>
     <input type="radio" name="geslacht" checked>
-    <label for="geslacht">Vrouw</label>
+    <label for="gender">Vrouw</label>
     <input type="radio" name="geslacht">
 </div>
     <div>
@@ -55,24 +55,24 @@
     <h2>
         Vakantielanden
     </h2>
-    <label for="vakantie landen">Kiez vakantielanden</label>
-    <select name="vakantielanden" id="vakantielanden">
-        <option value="Griekland">Griekland</option>
-        <option value="Italie">Italie</option>
-        <option value="Roemenie">Roemenie</option>
-        <option value="Spanje">Spanje</option>
+    <label for="vacantion place">Kiez vakantielanden</label>
+    <select name="vacantion place" id="vacantion place">
+        <option value="Greece">Griekland</option>
+        <option value="Italy">Italie</option>
+        <option value="Romania">Roemenie</option>
+        <option value="Spain">Spanje</option>
     </select>
     </div>
     <div>
-    <label for="Vertrek datum">Vertrek datum</label>
+    <label for="Departure date">Vertrek datum</label>
    <input type="date" name="vertrek datum" id="datemin" min="2023-09-14">
     </div>
     <div>
-    <label for="Terugkomst">Terug komst</label>
+    <label for="return">Terug komst</label>
     <input type="date">
     </div>
     <div>
-    <label for="aantal reisgenoten">Aantal reisgenoten</label>
+    <label for="number of passangers">Aantal reisgenoten</label>
     <input type="number" min="1" max="4">
     </div>
 
