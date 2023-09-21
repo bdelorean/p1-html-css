@@ -1,5 +1,5 @@
 h1 { font-size: 24px;
-    color:blue;
+    color: black;
     font-weight: bold;
     font-style: oblique;
 
@@ -17,9 +17,27 @@ p {color: #4d4d4d;
 
 }
 .paragraaf { font-weight: bold;
+    color: black;
 
 }
 a {
     color: #8a2be2;
     text-decoration: none;
+}
+header{
+    background-image: url( "./game5.img");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+img{ width: 50vw;
+}
+article { border-style: dotted;
+     border: 5px solid purple;
+     border-left-style: solid ;
+     border-left-width: 15px;
+    
+  
+
 }
