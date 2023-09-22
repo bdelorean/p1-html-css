@@ -2,13 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 html {
   font-size: 62.5%;
+ 
+  
+}
+.background {
+  background-image: url("./img/background.jpeg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 body {
-  font-family: "Goldman", cursive;
-}
+  font-family: "href= https://fonts.google.com/specimen/Goldman?query=goldman", cursive;
+  color: black;
+ }
 
 nav {
   display: flex;
@@ -37,3 +47,17 @@ nav a {
 nav img {
   width: 5vw;
 }
+.black {
+  background-color: black;
+}
+.white {
+  color: azure;
+}
+footer{
+ 
+  width: 100vw;
+  height: 15vh;
+  background-color:#00a8c7 ;
+
+}
+
