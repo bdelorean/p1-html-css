@@ -18,6 +18,8 @@ html {
 body {
   font-family: "href= https://fonts.google.com/specimen/Goldman?query=goldman", cursive;
   color: black;
+  min-height: 100vh;
+  position: relative;
  }
 
 nav {
@@ -30,6 +32,8 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: sticky;
+  top:0;
 }
 nav ul {
   display: flex;
@@ -54,10 +58,59 @@ nav img {
   color: azure;
 }
 footer{
- 
   width: 100vw;
   height: 15vh;
   background-color:#00a8c7 ;
-
+  position: absolute;
+  bottom: 0;
+  text-align: center;
 }
+.floatright{
+  float: right;
+  padding: 100px;
+}
+.floatleft{
+  float:left;
+  padding: 150px;
+}
+h1 {
+  text-align: center;
+  }
+
+
+  li a {
+    text-align: center;
+    padding: 0.8rem 1rem;
+    display: inline-block;
+   }
+  .dropdown-content {
+    position: absolute;
+    background-color: #e9e9e9;
+    z-index: 1;
+    box-shadow: 0rem 0.5rem 0.5rem 0rem rgba(0,0,0,0.2);
+    padding: 0.5rem;
+
+  display: none;
+   
+   
+  }
+  .dropdown-content a {
+    color: blue;
+    padding: 0.8rem 1rem;
+    display: block;
+    text-align: right;
+       }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+     li a:hover {
+      background-color: #e9e9e9;
+     }
+    
+     .dropdown-content a:hover {
+      background-color: black;
+     }
+ 
+
+ 
 

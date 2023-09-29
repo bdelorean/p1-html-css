@@ -1,3 +1,28 @@
+body{
+    position:relative;
+    min-height: 200vh;
+}
+nav {
+    background-color: blue;
+    color: aliceblue;
+    width: 1005;
+    height: 10vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+li{
+    text-decoration: none;
+}
+
 h1{
     color:brown;
 }
