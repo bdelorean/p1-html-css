@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1200px;
+   }
+
+
+table {
+    height: 200px;
+    width: 200px;
+}
+.blue {
+    background-color: blue;
+}
+.black {
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.display {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    }
