@@ -65,14 +65,22 @@ footer{
   bottom: 0;
   text-align: center;
 }
-.floatright{
-  float: right;
-  padding: 100px;
+.containerright {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
 }
-.floatleft{
-  float:left;
-  padding: 150px;
+.containerleft {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
 }
+
+
+
+  
+
+
 h1 {
   text-align: center;
   }
